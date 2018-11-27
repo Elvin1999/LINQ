@@ -92,8 +92,34 @@ namespace LINQ
             new Debtor("Lakisha R. Forrest", DateTime.Parse("December 1, 1973"), "334-830-1181", "LakishaRForrest@armyspy.com", "3121 Quarry Drive Montgomery, AL 36117", 3088),
             new Debtor("Pamela H. Beauchamp", DateTime.Parse("November 20, 1959"), "801-559-6347", "PamelaHBeauchamp@jourrapide.com", "3239 Tori Lane Salt Lake City, UT 84104", 6588)
         };
-            
-            
+            //// 1
+            //var collection1 = from t in debtors
+            //                 where t.Email.Contains("rhyta.com") || t.Email.Contains("dayrep.com")
+            //                 select t;
+            //foreach (var item in collection1)
+            //{
+            //    item.ShowDebtor();
+            //}
+            ////2
+            //int year = DateTime.Now.Year;
+            //var collection2 = from t in debtors
+            //                  where year - t.BirthDay.Year >= 26 && year - t.BirthDay.Year <= 36
+            //                  select t;
+            //foreach (var item in collection2)
+            //{
+            //    item.ShowDebtor();
+            //}
+            ////3
+            //var collection3 = from t in debtors
+            //                  where t.Debt < 5000
+            //                  select t;
+            //foreach (var item in collection3)
+            //{
+            //    item.ShowDebtor();
+            //}
+            ////4
+
+
         }
     }
 }
