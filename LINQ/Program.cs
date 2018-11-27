@@ -119,6 +119,38 @@ namespace LINQ
             //}
             ////4
 
+            //var collection4 = from t in debtors
+            //                  where t.FullName.Length >=18 && t.Phone.IndexOf('7') != t.Phone.LastIndexOf('7')
+            //                  select t;
+            //foreach (var item in collection4)
+            //{
+            //    item.ShowDebtor();
+            //}
+
+            ////5
+
+            //var collection5 = from t in debtors
+            //                  where t.BirthDay.Month == 12 || t.BirthDay.Month == 1 || t.BirthDay.Month == 2
+            //                  select t;
+            //foreach (var item in collection5)
+            //{
+            //    item.ShowDebtor();
+            //}
+
+            ////6
+
+            //var alldebt = debtors.Sum(x => x.Debt);
+
+            //var collection6 = from d in debtors
+            //                  where d.Debt > alldebt / debtors.Count
+            //                  orderby d.FullName
+            //                  orderby  d.Debt descending
+            //                  select d;
+            //foreach (var item in collection6)
+            //{
+            //    item.ShowDebtor();
+            //}
+
 
         }
     }
